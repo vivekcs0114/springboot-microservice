@@ -1,0 +1,10 @@
+version: '3'
+services:
+  moduleA:
+    image: module-service:A
+    ports:
+       - "8090:8090"
+  moduleB:
+    image: module-service:B
+    ports:
+      - "8080:8080"
